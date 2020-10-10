@@ -7,7 +7,7 @@
 - truncation
 - batch normalization (help better performance and smooth out)
 
-## Common ActivatiReLUon Functions
+## Common Activation Functions
 ### ReLU 
  - watch out for Dying ReLU problem. Once reaches zero will still zero
  - When z <= 0,  the derivative equals zero, causing some neurons to get stuck and stop learning.
