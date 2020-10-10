@@ -14,10 +14,10 @@
 ### Leaky ReLU 
 Improvement on Dying ReLU problem, allow small leak for negative value, and have a slope below zero
 ### Sigmoid 
-- y between (0 - 1) 
+- y between (0 to 1) 
 - Not used in hidden layer(s)
 - with vanishing gradient problems where saturated outputs occur at the tails of the function
 ### Tanh
-- y between (-1 - 1)
+- y between (-1 to 1)
 - Not used in hidden layer(s)
 - with vanishing gradient problems where saturated outputs occur at the tails of the function
